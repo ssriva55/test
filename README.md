@@ -1,2 +1,1 @@
-# test
-Let's Code.
+# Let's Code.
