@@ -1,0 +1,61 @@
+https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+
+Important Tools:
+Changing the Git default locations
+http://practicalseries.com/1002-vcs/03-03-install.html
+
+
+
+Setting up: 
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+git config --global --list
+
+Initialize a local directory for Git version control
+git init
+
+Create a branch
+git checkout -b <name-of-branch>
+
+Work on an existing branch
+git checkout <name-of-branch>
+
+View the changes you’ve made
+git status
+
+View differences
+git diff
+
+Use git add to first stage (prepare) a local file/folder for committing. Then use git commit to commit (save) the staged files:
+git add <file-name OR folder-name>
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+Add all changes to commit
+git add .
+git commit -m "COMMENT TO DESCRIBE THE INTENTION OF THE COMMIT"
+
+Send changes
+git push <remote> <name-of-branch>
+git push origin master
+
+Delete all changes in the branch
+To delete all local changes in the branch that have not been added to the staging area, and leave unstaged files/folders
+git checkout .
+
+
+Unstage all changes that have been added to the staging area
+git reset .
+
+Undo most recent commit
+To undo the most recent commit, type:
+git reset HEAD~1
+
+
+Merge a branch with master branch
+git checkout <name-of-branch>
+git merge master
+
+
+Delete a branch in Git
+git branch -d <branch>
+
