@@ -1,6 +1,6 @@
 https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
 
-Important Tools:
+Important Tips:
 Changing the Git default locations
 http://practicalseries.com/1002-vcs/03-03-install.html
 
