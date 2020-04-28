@@ -5,6 +5,8 @@ Changing the Git default locations
 http://practicalseries.com/1002-vcs/03-03-install.html
 
 
+GIT list all the files in a GIT repository.
+
 
 Setting up: 
 git config --global user.name "your_username"
